@@ -67,3 +67,34 @@ body {
     width: 100%;
 }
 
+.link-item {
+    font-size: 20px;
+    color: #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.link-item:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 50% 50% 0 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+
+/* Header */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../img/header-bg.jpeg) fixed center no-repeat /cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.banner-heading:first-letter {
+    font-family: 'Great Vibes', cursive;
+    font-size: 10rem;
+    margin-right: 20px;
+}
+
+.banner-heading img {
+    animation: beating 2s infinite;
+}
+
