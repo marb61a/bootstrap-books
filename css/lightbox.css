@@ -37,3 +37,21 @@ html.lb-disable-scrolling {
   /* Image border */
   border: 4px solid white;
 }
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+
+  /* Background color behind the image.
+     This will be visible during transitions. */
+  background-color: white;  
+}
+
